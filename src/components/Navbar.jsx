@@ -10,7 +10,7 @@ export default function Navbar({ darkMode, onToggleDarkMode }) {
     }
 
     return (
-        <nav className={`${darkMode ? "bg-slate-800 border-slate-700" : "bg-slate-100 border-slate-400"} border-b-2 sticky top-0 transition z-50`}>
+        <nav className={`${darkMode ? "bg-slate-800 border-slate-700" : "bg-slate-100 border-slate-400"} border-b-2 fixed top-0 left-0 right-0 transition z-50`}>
             <div className="h-16 flex justify-between items-center max-w-screen-md mx-auto px-4 xl:px-0">
                 <div>
                     <h1 className="text-2xl font-bold">Hanep</h1>

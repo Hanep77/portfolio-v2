@@ -14,7 +14,7 @@ function App() {
       <Navbar darkMode={darkMode} onToggleDarkMode={handleToggleDarkMode} />
       <main>
         <section id='home'>
-          <div className='max-w-screen-md min-h-screen mx-auto flex flex-col-reverse md:flex-row items-center pb-40 md:pb-20 px-4 md:px-0 gap-4'>
+          <div className='max-w-screen-md min-h-screen mx-auto flex flex-col-reverse md:flex-row items-center justify-center px-4 md:px-0 gap-4'>
             <div className='md:w-2/3 flex flex-col items-center md:items-start'>
               <p className='text:lg md:text-xl text-slate-500'>Hi, my name is...</p>
               <h1 className='text-5xl md:text-7xl font-bold mt-1'>Yudis Sutisna</h1>
