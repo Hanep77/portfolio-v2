@@ -10,8 +10,8 @@ export default function Navbar({ darkMode, onToggleDarkMode }) {
     }
 
     return (
-        <nav className={`${darkMode ? "bg-slate-800 border-slate-700" : "bg-slate-100 border-slate-400"} border-b-2 sticky top-0 transition`}>
-            <div className="h-16 flex justify-between items-center max-w-screen-lg mx-auto px-4 xl:px-0">
+        <nav className={`${darkMode ? "bg-slate-800 border-slate-700" : "bg-slate-100 border-slate-400"} border-b-2 sticky top-0 transition z-50`}>
+            <div className="h-16 flex justify-between items-center max-w-screen-md mx-auto px-4 xl:px-0">
                 <div>
                     <h1 className="text-2xl font-bold">Hanep</h1>
                 </div>
@@ -39,7 +39,7 @@ export default function Navbar({ darkMode, onToggleDarkMode }) {
                         <span className={`w-4 h-4 bg-white absolute rounded-full ${darkMode ? "translate-x-6 text-orange-700" : 'text-slate-400'} transition`}>{darkMode ? <MdDarkMode />
                             : <MdLightMode />}</span>
                     </button>
-                    <button className="flex flex-col gap-[6px] md:hidden" onClick={handleSidebar}>
+                    <button className={`flex flex-col gap-[6px] md:hidden ${sidebar && 'translate-y-1'}`} onClick={handleSidebar}>
                         <div className={`w-8 h-[3px] ${darkMode ? "bg-slate-300" : "bg-slate-800"} rounded ${sidebar && 'translate-y-[4.7px] rotate-45'} transition`}></div>
                         <div className={`w-8 h-[3px] ${darkMode ? "bg-slate-300" : "bg-slate-800"} rounded ${sidebar && 'hidden'} transition`}></div>
                         <div className={`w-8 h-[3px] ${darkMode ? "bg-slate-300" : "bg-slate-800"} rounded ${sidebar && '-translate-y-[4.7px] -rotate-45'} transition`}></div>
