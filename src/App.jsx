@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero';
 import About from './components/About';
+import Skills from './components/Skills';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -20,6 +21,10 @@ function App() {
 
         <section id='about' className={`${darkMode ? 'bg-slate-800' : 'bg-slate-100'}`}>
           <About darkMode={darkMode} />
+        </section>
+
+        <section id='skills'>
+          <Skills darkMode={darkMode} />
         </section>
       </main>
     </div >
