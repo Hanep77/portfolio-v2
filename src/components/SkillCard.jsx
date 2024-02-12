@@ -1,6 +1,6 @@
 export default function SkillCard({ darkMode, image, name }) {
     return (
-        <div className={`bg-gradient-to-r ${darkMode ? 'from-slate-800 to-slate-700 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded border hover:rotate-3 transition`}>
+        <div className={`bg-gradient-to-r ${darkMode ? 'from-slate-800 to-slate-700 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded border transition saturate-50 hover:saturate-100 drop-shadow-xl hover:drop-shadow-sm hover:scale-95`}>
             <div className="p-8 pb-0 flex justify-center">
                 <img src={"/icons/" + image + ".svg"} alt={name} className="w-24" />
             </div>

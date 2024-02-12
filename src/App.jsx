@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -19,12 +20,16 @@ function App() {
           <Hero darkMode={darkMode} />
         </section>
 
-        <section id='about' className={`${darkMode ? 'bg-slate-800' : 'bg-slate-100'}`}>
+        <section id='about' className={`${darkMode ? 'bg-slate-800' : 'bg-slate-100'} transition`}>
           <About darkMode={darkMode} />
         </section>
 
         <section id='skills'>
           <Skills darkMode={darkMode} />
+        </section>
+
+        <section id='projects' className={`${darkMode ? 'bg-slate-800' : 'bg-slate-100'} transition`}>
+          <Projects darkMode={darkMode} />
         </section>
       </main>
     </div >
