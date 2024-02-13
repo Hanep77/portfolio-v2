@@ -18,7 +18,7 @@ export default function Footer({ darkMode }) {
                     <div className="flex gap-4">
                         <a href="https://web.facebook.com/hanep.hanep.378?_rdc=1&_rdr" className="hover:text-slate-300"><FaFacebook /></a>
                         <a href="https://www.instagram.com/hanep77/" className="hover:text-slate-300"><FaInstagram /></a>
-                        <a href="https://twitter.com/YHanep" className="hover:text-slate-300"><FaTwitter /></a>
+                        <a href="https://twitter.com/yudis_aka_hanep" className="hover:text-slate-300"><FaTwitter /></a>
                         <a href="https://github.com/Hanep77" className="hover:text-slate-300"><FaGithub /></a>
                     </div>
                 </div>

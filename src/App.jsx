@@ -5,6 +5,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -34,6 +35,7 @@ function App() {
         </section>
 
         <section id='contact'>
+          <Contact darkMode={darkMode} />
         </section>
       </main>
       <Footer darkMode={darkMode} />

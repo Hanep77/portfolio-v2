@@ -8,7 +8,7 @@ export default function Projects({ darkMode }) {
             <div className="grid md:grid-cols-2 mt-8 gap-5">
 
                 {/* NEPBLOG */}
-                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-150 transition`}>
+                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-100 transition`}>
                     <div className="w-full h-56">
                         <img src="/image/projects/nepblog.png" alt="nepblog" className="w-full h-full object-cover" />
                     </div>
@@ -28,7 +28,7 @@ export default function Projects({ darkMode }) {
                 </div>
 
                 {/* NEPNOTE */}
-                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-150 transition`}>
+                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-100 transition`}>
                     <div className="w-full h-56">
                         <img src="/image/projects/nepnote.png" alt="nepnote" className="w-full h-full object-cover" />
                     </div>
@@ -48,7 +48,7 @@ export default function Projects({ darkMode }) {
                 </div>
 
                 {/* JADWAL PELAJARAN */}
-                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-150 transition`}>
+                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-100 transition`}>
                     <div className="w-full h-56">
                         <img src="/image/projects/jadwalpelajaran.png" alt="jadwal pelajaran" className="w-full h-full object-cover" />
                     </div>
@@ -69,7 +69,7 @@ export default function Projects({ darkMode }) {
                 </div>
 
                 {/* CATATAN BELANJA */}
-                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-150 transition`}>
+                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-100 transition`}>
                     <div className="w-full h-56">
                         <img src="/image/projects/catatan-belanja.png" alt="catatan belanja" className="w-full h-full object-cover" />
                     </div>
@@ -90,7 +90,7 @@ export default function Projects({ darkMode }) {
                 </div>
 
                 {/* YAYASAN */}
-                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-150 transition`}>
+                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-100 transition`}>
                     <div className="w-full h-56">
                         <img src="/image/projects/foundation.png" alt="yayasan sekolah" className="w-full h-full object-cover" />
                     </div>
@@ -111,7 +111,7 @@ export default function Projects({ darkMode }) {
                 </div>
 
                 {/* PENGADUAN MASYARAKAT */}
-                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-150 transition`}>
+                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-100 transition`}>
                     <div className="w-full h-56">
                         <img src="/image/projects/pengaduan-masyarakat.png" alt="pengaduan masyarakat" className="w-full h-full object-cover" />
                     </div>
@@ -132,7 +132,7 @@ export default function Projects({ darkMode }) {
                 </div>
 
                 {/* PORTFOLIO V1 */}
-                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-150 transition`}>
+                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-100 transition`}>
                     <div className="w-full h-56">
                         <img src="/image/projects/portfoliov1.png" alt="portfolio v1" className="w-full h-full object-cover" />
                     </div>
@@ -152,7 +152,7 @@ export default function Projects({ darkMode }) {
                 </div>
 
                 {/* PORTFOLIO V2 */}
-                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-150 transition`}>
+                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-100 transition`}>
                     <div className="w-full h-56">
                         <img src="/image/projects/portfoliov2.png" alt="portfolio v2" className="w-full h-full object-cover" />
                     </div>
@@ -173,7 +173,7 @@ export default function Projects({ darkMode }) {
                 </div>
 
                 {/* SOCIAL NETWORK */}
-                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-150 transition`}>
+                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-100 transition`}>
                     <div className="w-full h-56">
                         <img src="/image/projects/social-network.png" alt="social network" className="w-full h-full object-cover" />
                     </div>
@@ -194,7 +194,7 @@ export default function Projects({ darkMode }) {
                 </div>
 
                 {/* TODOLIST */}
-                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-150 transition`}>
+                <div className={`bg-gradient-to-r border ${darkMode ? 'from-slate-700 to-slate-800 border-slate-600' : 'from-slate-300 to-slate-200 border-slate-400'} rounded-md overflow-hidden saturate-50 hover:saturate-100 transition`}>
                     <div className="w-full h-56">
                         <img src="/image/projects/todolist.png" alt="todolist" className="w-full h-full object-cover" />
                     </div>

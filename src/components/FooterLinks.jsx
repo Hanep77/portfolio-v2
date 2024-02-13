@@ -22,7 +22,7 @@ export default function FooterLinks() {
                 </ul>
             </div>
             <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow me</h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium flex flex-col gap-2">
                     <li>
                         <a target="_blank" href="https://web.facebook.com/hanep.hanep.378?_rdc=1&_rdr" className="hover:underline">Facebook</a>
@@ -31,7 +31,7 @@ export default function FooterLinks() {
                         <a target="_blank" href="https://www.instagram.com/hanep77/" className="hover:underline">Instagram</a>
                     </li>
                     <li>
-                        <a target="_blank" href="https://twitter.com/YHanep" className="hover:underline">Twitter</a>
+                        <a target="_blank" href="https://twitter.com/yudis_aka_hanep" className="hover:underline">Twitter</a>
                     </li>
                     <li>
                         <a target="_blank" href="https://github.com/Hanep77" className="hover:underline">Github</a>
